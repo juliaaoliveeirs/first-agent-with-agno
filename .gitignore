@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+
+# Pastas
+0_introducao/
+0_introducao/*
+aula/
+aula/*
+1_deploy/exemplo1.py
+1_deploy/exemplo3.py

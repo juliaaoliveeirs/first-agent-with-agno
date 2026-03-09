@@ -1,0 +1,29 @@
+{
+  "name": "Deploy_with_agno",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true,
+        "jupyter.askForKernelRestart": false,
+        "python.terminal.activateEnvInSelectedTerminal": true
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-renderers",
+        "cweijan.vscode-database-client2",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "uv sync",
+  "forwardPorts": [8888]
+}

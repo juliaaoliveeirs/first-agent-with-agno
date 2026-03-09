@@ -1,0 +1,21 @@
+[project]
+name = "deploy-agno"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=2.5.7",
+    "chromadb>=1.5.2",
+    "fastapi",
+    "ipykernel",
+    "ipython",
+    "openai>=2.26.0",
+    "pypdf>=6.7.5",
+    "pysqlite3-binary>=0.5.4.post2",
+    "python-dotenv",
+    "sqlalchemy>=2.0.48",
+    "streamlit>=1.55.0",
+    "uvicorn",
+    "watchdog>=6.0.0",
+]
