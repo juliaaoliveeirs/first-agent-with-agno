@@ -4,7 +4,7 @@ import json
 import streamlit as st
 
 AGENT_ID = 'pdf_agent'
-ENDPOINT = f'http://localhost:7777/agents/{AGENT_ID}/runs'
+ENDPOINT = f'https://agent-pdf-api.onrender.com/agents/{AGENT_ID}/runs'
 
 # 2 - Conexão com o Agno =========================================================
 def get_response_stream(message: str):
